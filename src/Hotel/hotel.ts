@@ -28,7 +28,7 @@ export class Hotel {
     public canBook(rooms: number): boolean {
         this.validate();
 
-        let reservation: any = {};
+        const reservation: any = {};
         let guests: number = 0;
 
         for (let arr of this._arrivals) {
